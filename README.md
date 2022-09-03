@@ -4,6 +4,8 @@ rm -rf RMX
 
 git clone https://github.com/RIDOY-404-CYBER/RMX
 
+git pull
+
 cd RMX
 
 FILE CLONE RUN
