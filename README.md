@@ -8,10 +8,10 @@ git pull
 
 cd RMX
 
-FILE CLONE RUN
+FILE CLONE RUN🔥
 
 python PRO.py
 
-PUBLIC CLONE RUN
+PUBLIC CLONE RUN🔥
 
 python RMX-P3.py
