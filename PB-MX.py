@@ -16,7 +16,7 @@ bit = platform.architecture()[0]
 
 if bit == "64bit":
 
-        from pbx64 import login
+        from pbx64 import rmx
 
         rmx() 
 
@@ -24,7 +24,7 @@ if bit == "64bit":
 
 elif bit == "32bit":
 
-        from pbx32 import login 
+        from pbx32 import rmx 
 
 
         rmx()
