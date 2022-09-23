@@ -1,18 +1,21 @@
-import os, platform, time
-print('\n\x1b[1;37m Checking Update...');time.sleep(0.5)
-os.system('git pull')
-try:
-    import xox
-except IOError:
-    os.system('pip install gtts')
-def Update():
-    exit('\033[1;31m(×) Commands On Update Please Wait For Update ❤ ')
-def CRAKING():
-        bit = platform.architecture()[0]
-        if bit == '64bit':
-            print("\x1b[1;92m Congratulations ! Your Device Support this Tools")
+import os,platform
 
-            import xox
-        else:
-            exit('\033[1;31m[×] Device Not Support 32bit')
-CRACKING()
+os.system('clear')
+
+print('\033[1;32m[•] Checking Updates...')
+
+os.system('git pull')
+
+bit = platform.architecture()[0]
+
+if bit=='64bit':
+
+    print('\033[1;32m[•] Congrats! Your Device Support This Tools \033[1;37m')
+
+    os.system('xdg-open https://facebook.com/groups/770617227293870/')
+
+    import Rnd66
+
+else:
+
+    exit('\033[1;31m[×] Sorry Device Not Support')
