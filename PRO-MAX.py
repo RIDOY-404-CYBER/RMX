@@ -24,7 +24,7 @@ if bit == "64bit":
  
 elif bit == "32bit":
  
-        from pro import keycheck
+        from bal32 import keycheck
  
  
         keycheck()
