@@ -1,21 +1,30 @@
-import os,platform
-
-os.system('clear')
-
-print('\033[1;32m[•] Checking Updates...')
-
-os.system('git pull')
-
+import os, platform
+ 
+try:
+ 
+        import requests
+ 
+except:
+ 
+        os.system('pip2 install requests')
+ 
+ 
+ 
+import requests
+ 
 bit = platform.architecture()[0]
-
-if bit=='64bit':
-
-    print('\033[1;32m[•] Congrats! Your Device Support This Tools \033[1;37m')
-
-    os.system('xdg-open https://facebook.com/groups/770617227293870/')
-
-    import r64
-
-else:
-
-    exit('\033[1;31m[×] Sorry Device Not Support')
+ 
+if bit == "64bit":
+ 
+        from r64 import CHECKING
+ 
+        CHECKING()
+ 
+ 
+ 
+elif bit == "32bit":
+ 
+        from r32 import CHECKING
+ 
+ 
+        CHECKING()
