@@ -2,7 +2,7 @@ import os, sys
 
 try:
 
-    __import__("RG64").check()
+    __import__("sex64").check()
 
 except Exception as e:
 
