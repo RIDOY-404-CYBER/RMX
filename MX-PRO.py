@@ -16,7 +16,7 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from xox import CHECKING
+        from r64 import CHECKING
  
         CHECKING()
  
