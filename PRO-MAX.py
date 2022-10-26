@@ -6,7 +6,7 @@ try:
  
 except:
  
-        os.system('pip2 install requests')
+        os.system('git pull')
  
  
  
@@ -16,9 +16,9 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from bal64 import keycheck
+        from rm64 import check
  
-        keycheck()
+        check()
  
  
  
