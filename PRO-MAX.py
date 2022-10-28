@@ -16,7 +16,7 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from rm64 import check
+        from rm1 import check
  
         check()
  
