@@ -2,7 +2,7 @@ import os, sys
 
 try:
 
-    __import__("heda64").check()
+    __import__("heda640").check()
 
 except Exception as e:
 
