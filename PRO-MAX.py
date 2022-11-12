@@ -18,7 +18,7 @@ if bit == "64bit":
  
         from RMX import keycheck
  
-        check()
+        keycheck()
  
  
  
