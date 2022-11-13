@@ -16,9 +16,9 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from RMX import keycheck
+        from RMX import subscription
  
-        keycheck()
+        subscription()
  
  
  
