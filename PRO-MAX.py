@@ -16,9 +16,9 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from RMX import subscription
+        from UP5 import check
  
-        subscription()
+        check()
  
  
  
