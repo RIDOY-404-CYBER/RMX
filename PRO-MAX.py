@@ -16,7 +16,7 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from PGV7 import check
+        from RMX_XD4 import check
  
         check()
  
