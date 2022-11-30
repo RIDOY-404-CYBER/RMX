@@ -1,4 +1,4 @@
 import RMX_XD6
 
 
-RMX_XD.CHECKING()
+RMX_XD6.CHECKING()
