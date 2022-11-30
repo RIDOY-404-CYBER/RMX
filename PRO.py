@@ -8,7 +8,7 @@ if "aarch" in arch:
     print('\033[1;32m\n Congratulatings! Your Deviec Support This Tools');time.sleep(1)
 else:
     print('\033[1;31m\n Sorry System not support this tools');sys.exit()
-system('cp api.py /data/data/com.termux/files/usr/lib/python3.11/site-packages/requests')
+
 try:
     if sys.argv[1]=='update':
         system('cd $HOME && cd RMX && rm -f *')
