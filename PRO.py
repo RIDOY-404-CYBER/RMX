@@ -1,0 +1,2 @@
+import VXD
+VXD.CHECKING()
