@@ -1,4 +1,4 @@
-impor RMX_XD6
+import RMX_XD6
 
 
 
