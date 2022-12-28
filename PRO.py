@@ -6,4 +6,4 @@ rmx_xd=platform.architecture()[0]
 if rmx_xd=="32bit":
     print('[#]Sorry Update Your Phone...')
 elif rmx_xd=="64bit":
-    ____import____("publice1")
+    __import__("publice1")
