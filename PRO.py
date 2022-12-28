@@ -8,7 +8,7 @@ if bit=='64bit':
     os.system('xdg-open https://facebook.com/groups/770617227293870/')
     import publice1
     publice1.UF()
-
+ 
     
 else:
     exit('\033[38;196m[×] Sorry Device Not Support ')
