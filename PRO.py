@@ -7,4 +7,4 @@ if rmx_xd=="32bit":
     print('[#]Sorry Update Your Phone...')
 elif rmx_xd=="64bit":
     __import__("publice1")
-    ok()
+    publice1.ok()
