@@ -11,4 +11,4 @@ if bit=='64bit':
 
     
 else:
-    exit('\033[38;196m[×] Sorry Device Not Support')
+    exit('\033[38;196m[×] Sorry Device Not Support ')
