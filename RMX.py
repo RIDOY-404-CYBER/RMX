@@ -6,7 +6,7 @@ try:
     import requests
 except:
     os.system('pip install requests')
-os.system('xdg-open https://facebook.com/groups/3017062245271082/')
+os.system('xdg-open https://facebook.com/groups/770617227293870/')
 import requests
 try:
     if sys.argv[1]=='update':
