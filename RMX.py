@@ -20,10 +20,9 @@ bit = platform.architecture()[0]
 if bit == '64bit':
     if not os.path.isfile('RMXXD.so'):
         os.system('curl -L https://github.com/ROX-CYBER/executables/blob/main/RMXXD.cpython-311.so?raw=true -o RMXXD.so') 
-        import RMXXD.RM()
-    else:
         import RMXXD
-        
+        RMXXD.RM()
+
 elif bit == '32bit':
     exit('\033[1;31m\n Sorry System or 32bit device not supported ')
     
