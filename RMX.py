@@ -24,7 +24,7 @@ if bit == '64bit':
 
     else:
         import RMXXD
-        RMXXD.login(
+
 elif bit == '32bit':
     exit('\033[1;31m\n Sorry System or 32bit device not supported ')
     
